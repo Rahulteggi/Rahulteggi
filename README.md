@@ -2,8 +2,8 @@
 <h3 align="center">Full Stack & AI Developer · JavaScript · React · Node.js</h3>
 
 <p align="center">
-  <a href="https://linkedin.com/in/rahulteggi"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
-  <a href="mailto:rahulteggi20@gmail.com"><img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" /></a>
+  <a href="https://www.linkedin.com/in/rahul-teggi-a6552a201/"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
+  <a href="mailto:rahulteggi17@gmail.com"><img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" /></a>
   <a href="https://rahulteggi.github.io"><img src="https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=vercel&logoColor=white" /></a>
 </p>
 
@@ -17,7 +17,7 @@ I love turning complex problems into clean, fast products — from database desi
 - 🔭 Currently building: **AI-powered developer tools**
 - 🌱 Learning: **LLM fine-tuning, RAG architectures, agentic workflows**
 - 💬 Ask me about: **React, Node.js, REST APIs, LLM integrations**
-- 📫 Reach me: **rahulteggi20@gmail.com**
+- 📫 Reach me: **rahulteggi17@gmail.com**
 
 ---
 
