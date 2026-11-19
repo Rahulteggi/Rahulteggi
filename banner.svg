@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 420" width="1280" height="420" role="img" aria-label="Rahul Teggi, full stack software engineer. I build web apps that put AI to work.">
+  <defs>
+    <radialGradient id="bg" cx="0.72" cy="0.25" r="0.85">
+      <stop offset="0" stop-color="#E07A2E"/>
+      <stop offset="0.38" stop-color="#9C3A12"/>
+      <stop offset="0.75" stop-color="#3A1607"/>
+      <stop offset="1" stop-color="#1A0A03"/>
+    </radialGradient>
+    <radialGradient id="glow" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#F29A4A" stop-opacity=".45"/>
+      <stop offset="1" stop-color="#F29A4A" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="grain" x="0" y="0" width="100%" height="100%">
+      <feTurbulence type="fractalNoise" baseFrequency=".9" numOctaves="3" stitchTiles="stitch"/>
+      <feColorMatrix values="0 0 0 0 1  0 0 0 0 1  0 0 0 0 1  0 0 0 .07 0"/>
+    </filter>
+    <filter id="shadow" x="-30%" y="-30%" width="160%" height="180%">
+      <feDropShadow dx="0" dy="18" stdDeviation="16" flood-color="#000" flood-opacity=".45"/>
+    </filter>
+    <style>
+      .sans { font-family: 'Inter Tight', Inter, 'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif; }
+      .serif { font-family: Georgia, 'Times New Roman', serif; }
+      .mono { font-family: 'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; }
+      .float { animation: bob 6s ease-in-out infinite; }
+      .d2 { animation-delay: -2s; } .d3 { animation-delay: -4s; }
+      @keyframes bob { 50% { transform: translateY(-6px); } }
+      @media (prefers-reduced-motion: reduce) { .float { animation: none; } }
+    </style>
+  </defs>
+
+  <rect width="1280" height="420" rx="18" fill="url(#bg)"/>
+  <circle cx="1010" cy="70" r="300" fill="url(#glow)"/>
+  <rect width="1280" height="420" rx="18" filter="url(#grain)"/>
+
+  <!-- headline -->
+  <text x="640" y="150" text-anchor="middle" class="sans" font-size="22" font-weight="500" fill="#F4F0E4">Rahul Teggi, full stack software engineer</text>
+  <text x="640" y="232" text-anchor="middle" class="sans" font-size="66" font-weight="400" letter-spacing="-2" fill="#F4F0E4">I build web apps that</text>
+  <text x="640" y="306" text-anchor="middle" class="sans" font-size="66" font-weight="400" letter-spacing="-2" fill="#F4F0E4">put AI to work.</text>
+  <text x="640" y="360" text-anchor="middle" class="sans" font-size="17" fill="#F4F0E4" fill-opacity=".8">Cleveland, Ohio  ·  Open to full-stack and AI roles</text>
+
+  <!-- floating cards -->
+  <g class="float">
+    <g transform="translate(46 44) rotate(-4)" filter="url(#shadow)">
+      <rect width="236" height="118" rx="10" fill="#FBF8F0"/>
+      <text x="16" y="28" class="mono" font-size="11" fill="#6B6852">Q: What AI work has he shipped?</text>
+      <text x="16" y="56" class="serif" font-size="17" fill="#1C1B12">He built DocMind, a full</text>
+      <text x="16" y="78" class="serif" font-size="17" fill="#1C1B12">RAG app with vector search.</text>
+      <rect x="16" y="90" width="118" height="18" rx="4" fill="#EFE8D2"/>
+      <text x="24" y="103" class="mono" font-size="10" fill="#1C1B12">Projects / DocMind</text>
+    </g>
+  </g>
+  <g class="float d2">
+    <g transform="translate(1056 112) rotate(3)" filter="url(#shadow)">
+      <rect width="170" height="74" rx="10" fill="#FBF8F0"/>
+      <text x="16" y="26" class="sans" font-size="11" fill="#6B6852">Response time</text>
+      <text x="16" y="58" class="sans" font-size="28" font-weight="500" fill="#1C1B12">12s → 3s</text>
+    </g>
+  </g>
+  <g class="float d3">
+    <g transform="translate(1020 300) rotate(-2)" filter="url(#shadow)">
+      <rect width="156" height="74" rx="10" fill="#FBF8F0"/>
+      <text x="16" y="26" class="sans" font-size="11" fill="#6B6852">Model accuracy</text>
+      <text x="16" y="58" class="sans" font-size="28" font-weight="500" fill="#1C1B12">91.02%</text>
+    </g>
+  </g>
+  <g class="float d2">
+    <g transform="translate(92 318) rotate(2)" filter="url(#shadow)">
+      <rect width="196" height="40" rx="8" fill="#FBF8F0"/>
+      <circle cx="20" cy="20" r="5" fill="#3FA34D"/>
+      <text x="34" y="24" class="mono" font-size="11" fill="#1C1B12">~40% faster APIs at UST</text>
+    </g>
+  </g>
+</svg>
